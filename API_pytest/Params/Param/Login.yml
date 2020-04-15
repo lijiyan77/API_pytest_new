@@ -1,0 +1,23 @@
+---
+Login:
+  dec: "登录"
+  parameters:
+    -
+      url: /api/hoolink-rpc/web/login
+      data:
+        -
+          account: ljy
+          customerNo: huling
+          password: 2acb4dfb3e84c2c871260c51fe1101f8
+        -
+          account: ljy
+          customerNo: huling
+          password: 123456
+        -
+          account: ljyxx
+          customerNo: huling
+          password: 2acb4dfb3e84c2c871260c51fe1101f8
+        -
+          account: ljy
+          customerNo: huling11
+          password: 2acb4dfb3e84c2c871260c51fe1101f8

@@ -1,0 +1,16 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 15 13:18:33 CST 2020","Wed Apr 15 13:18:33 CST 2020","414","","TestCase","","TestCase","test_login.TestLogin.test_login_01","test_login.TestLogin.test_login_01","
+        正常登录
+        "
+"passed","Wed Apr 15 13:18:34 CST 2020","Wed Apr 15 13:18:34 CST 2020","318","","TestCase","","TestCase","test_login.TestLogin.test_login_03","test_login.TestLogin.test_login_03","
+        account错误
+        "
+"passed","Wed Apr 15 13:18:34 CST 2020","Wed Apr 15 13:18:34 CST 2020","288","","TestCase","","TestCase","test_login.TestLogin.test_login_04","test_login.TestLogin.test_login_04","
+        customerNo错误
+        "
+"passed","Wed Apr 15 13:18:33 CST 2020","Wed Apr 15 13:18:34 CST 2020","291","","TestCase","","TestCase","test_login.TestLogin.test_login_02","test_login.TestLogin.test_login_02","
+        密码错误
+        "
+"passed","Wed Apr 15 13:18:32 CST 2020","Wed Apr 15 13:18:33 CST 2020","727","","TestCase","","TestCase","test_get.TestGet.test_get_01","test_get.TestGet.test_get_01","
+        获取个人信息
+        "

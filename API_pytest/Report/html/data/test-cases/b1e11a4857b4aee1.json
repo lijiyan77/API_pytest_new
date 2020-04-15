@@ -1,0 +1,83 @@
+{
+  "uid" : "b1e11a4857b4aee1",
+  "name" : "test_get.TestGet.test_get_01",
+  "fullName" : "TestCase.test_get.TestGet.test_get_01",
+  "historyId" : "db6027a532ceb93aa6ae4b1eb5209bf2",
+  "time" : {
+    "start" : 1586927912615,
+    "stop" : 1586927913342,
+    "duration" : 727
+  },
+  "description" : "\n        获取个人信息\n        ",
+  "descriptionHtml" : "<pre><code>    获取个人信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ca4f0c4de8675184",
+      "name" : "Captured log call",
+      "source" : "ca4f0c4de8675184.txt",
+      "type" : "text/plain",
+      "size" : 856
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Home"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HL-RJ-LJY"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Get"
+  }, {
+    "name" : "thread",
+    "value" : "8796-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_get.TestGet.test_get_01"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1e11a4857b4aee1.json",
+  "parameterValues" : [ ]
+}

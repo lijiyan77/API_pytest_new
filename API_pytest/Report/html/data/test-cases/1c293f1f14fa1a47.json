@@ -1,0 +1,77 @@
+{
+  "uid" : "1c293f1f14fa1a47",
+  "name" : "test_login.TestLogin.test_login_03",
+  "fullName" : "TestCase.test_login.TestLogin.test_login_03",
+  "historyId" : "eb81c9a36d7d9c965bcd513a2bce5652",
+  "time" : {
+    "start" : 1586927914056,
+    "stop" : 1586927914374,
+    "duration" : 318
+  },
+  "description" : "\n        account错误\n        ",
+  "descriptionHtml" : "<pre><code>    account错误\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ac548e0cb364481",
+      "name" : "Captured log call",
+      "source" : "3ac548e0cb364481.txt",
+      "type" : "text/plain",
+      "size" : 424
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HL-RJ-LJY"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8796-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login.TestLogin.test_login_03"
+  }, {
+    "name" : "package",
+    "value" : "TestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c293f1f14fa1a47.json",
+  "parameterValues" : [ ]
+}
