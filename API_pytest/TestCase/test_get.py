@@ -35,7 +35,7 @@ class TestGet:
         header = {'X-Token': login(action)[0]}
 
         response = request.post_request(api_url, params[0], header)
-        # print(response)
+        print(response)
         re = json.loads(response)
         assert test.assert_text(re['data']['customerNo'], Consts.API_CUSTOMERNO)
 
