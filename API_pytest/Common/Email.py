@@ -13,7 +13,7 @@ from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from Common import Consts
+from Common import Consts, Log
 
 from Conf.Config import Config
 
@@ -22,7 +22,7 @@ class SendMail:
 
     def __init__(self):
         self.config = Config()
-        # self.log = Log.MyLog()
+        self.log = Log.MyLog()
 
     def sendMail(self):
         msg = MIMEMultipart()
@@ -53,10 +53,10 @@ class SendMail:
         except Exception as e:
             print(e)
             print("发送失败")
-            # self.log.error("邮件发送失败，请检查邮件配置")
+            self.log.error("邮件发送失败，请检查邮件配置")
 
         else:
             print("发送成功")
-            # self.log.info("邮件发送成功")
+            self.log.info("邮件发送成功")
         finally:
             smtp.quit()

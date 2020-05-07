@@ -9,7 +9,9 @@
 """
 import os
 from Params import tools
+from Common import Log
 
+log=Log.MyLog()
 path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 
 
@@ -20,7 +22,7 @@ def get_parameter(name):
 
 
 class Login:
-    # log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Basic.yaml')
+    log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Login.yaml')
     params = get_parameter('Login')
     url = []
     data = []
@@ -31,7 +33,7 @@ class Login:
         # header.append(params[i]['header'])
 
 class Get:
-    # log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Basic.yaml')
+    log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Get.yaml')
     params = get_parameter('Get')
     url = []
     data = []

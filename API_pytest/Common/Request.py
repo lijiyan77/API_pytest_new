@@ -42,7 +42,7 @@ class Request:
         return response_dicts
 
 if __name__ == '__main__':
-    url = 'http://114.116.163.85:9997/api/hoolink-rpc/web/login'
+    url = 'https://api.test.hoolink.com/api/hoolink-rpc/web/login'
     data = {
         "account": "ljy",
         "customerNo": "huling",

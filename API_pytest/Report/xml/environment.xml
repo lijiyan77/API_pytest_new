@@ -1,5 +1,5 @@
 <ns0:environment xmlns:ns0="urn:model.commons.qatools.yandex.ru">
-  <id>3b44f7b9-ab1d-4742-8393-a945fee7e7fd</id>
+  <id>61d92aad-f4c9-4a68-afd9-a6c08958f81a</id>
   <name>Allure environment parameters</name>
   <parameter>
     <key>environment</key>
@@ -9,7 +9,7 @@
   <parameter>
     <key>hostname</key>
     <name>hostname</name>
-    <value>114.116.163.85:9997</value>
+    <value>api.test.hoolink.com</value>
   </parameter>
   <parameter>
     <key>tester</key>

@@ -24,7 +24,7 @@ class TestLogin:
         request = Request.Request(action)
 
         host = conf.host_debug
-        req_url = 'http://' + host
+        req_url = 'https://' + host
         urls = data.url
         api_url = req_url + urls[0]
 
@@ -35,6 +35,9 @@ class TestLogin:
         re=json.loads(response)
         assert test.assert_text(re['data']['userName'], 'ouyangnana')
 
+    @pytest.allure.feature('Home')
+    @allure.severity('blocker')  # 按严重性级别来标记case
+    @allure.story('Login')
     def test_login_02(self, action):
         """
         密码错误
@@ -45,7 +48,7 @@ class TestLogin:
         request = Request.Request(action)
 
         host = conf.host_debug
-        req_url = 'http://' + host
+        req_url = 'https://' + host
         urls = data.url
         api_url = req_url + urls[0]
 
@@ -68,7 +71,7 @@ class TestLogin:
         request = Request.Request(action)
 
         host = conf.host_debug
-        req_url = 'http://' + host
+        req_url = 'https://' + host
         urls = data.url
         api_url = req_url + urls[0]
 
@@ -91,7 +94,7 @@ class TestLogin:
         request = Request.Request(action)
 
         host = conf.host_debug
-        req_url = 'http://' + host
+        req_url = 'https://' + host
         urls = data.url
         api_url = req_url + urls[0]
 

@@ -6,3 +6,90 @@
 [INFO 2020-04-15 13:18:01]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
 [INFO 2020-04-15 13:18:14]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
 [INFO 2020-04-15 13:18:31]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-06 11:53:55]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-06 11:55:25]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-06 11:56:07]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[DEBUG 2020-05-07 16:07:07]This is debug message
+[INFO 2020-05-07 16:07:07]This is info message
+[WARNING 2020-05-07 16:07:07]This is warning message
+[ERROR 2020-05-07 16:07:07]This is error
+[CRITICAL 2020-05-07 16:07:07]This is critical message
+[DEBUG 2020-05-07 16:14:00]cookies: {}
+[DEBUG 2020-05-07 16:14:13]cookies: {}
+[DEBUG 2020-05-07 16:14:21]cookies: {}
+[DEBUG 2020-05-07 16:15:43]cookies: {}
+[INFO 2020-05-07 16:40:53]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:40:53]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[ERROR 2020-05-07 16:40:53]get cookies error, please checkout!!!
+[INFO 2020-05-07 16:41:23]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:41:23]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[ERROR 2020-05-07 16:41:23]get cookies error, please checkout!!!
+[INFO 2020-05-07 16:43:12]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-07 16:43:12]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:43:12]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 16:43:13]cookies: {}
+[DEBUG 2020-05-07 16:43:13]cookies: {}
+[DEBUG 2020-05-07 16:43:14]cookies: {}
+[DEBUG 2020-05-07 16:43:15]cookies: {}
+[DEBUG 2020-05-07 16:43:16]cookies: {}
+[DEBUG 2020-05-07 16:43:18]cookies: {}
+[INFO 2020-05-07 16:43:24]邮件发送成功
+[DEBUG 2020-05-07 16:46:37]cookies: {}
+[DEBUG 2020-05-07 16:49:43]cookies: {}
+[DEBUG 2020-05-07 16:51:03]cookies: {}
+[DEBUG 2020-05-07 16:54:14]cookies: {}
+[DEBUG 2020-05-07 16:55:46]cookies: {}
+[DEBUG 2020-05-07 16:58:01]cookies: {}
+[DEBUG 2020-05-07 16:58:20]cookies: {}
+[INFO 2020-05-07 16:58:33]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-07 16:58:34]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:58:34]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 16:58:34]cookies: {}
+[DEBUG 2020-05-07 16:58:35]cookies: {}
+[DEBUG 2020-05-07 16:58:37]cookies: {}
+[DEBUG 2020-05-07 16:58:38]cookies: {}
+[DEBUG 2020-05-07 16:58:40]cookies: {}
+[DEBUG 2020-05-07 16:58:41]cookies: {}
+[ERROR 2020-05-07 16:58:45]邮件发送失败，请检查邮件配置
+[INFO 2020-05-07 16:59:05]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:59:05]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[ERROR 2020-05-07 16:59:05]get cookies error, please checkout!!!
+[INFO 2020-05-07 16:59:20]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 16:59:20]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 16:59:21]cookies: {}
+[INFO 2020-05-07 17:00:47]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 17:00:47]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 17:00:48]cookies: {}
+[INFO 2020-05-07 17:01:00]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 17:01:00]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 17:01:00]cookies: {}
+[INFO 2020-05-07 17:01:06]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-07 17:01:07]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 17:01:07]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 17:01:08]cookies: {}
+[DEBUG 2020-05-07 17:01:08]cookies: {}
+[DEBUG 2020-05-07 17:01:10]cookies: {}
+[DEBUG 2020-05-07 17:01:11]cookies: {}
+[DEBUG 2020-05-07 17:01:11]cookies: {}
+[DEBUG 2020-05-07 17:01:12]cookies: {}
+[ERROR 2020-05-07 17:01:14]邮件发送失败，请检查邮件配置
+[INFO 2020-05-07 17:03:14]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-07 17:03:15]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 17:03:15]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 17:03:15]cookies: {}
+[DEBUG 2020-05-07 17:03:16]cookies: {}
+[DEBUG 2020-05-07 17:03:17]cookies: {}
+[DEBUG 2020-05-07 17:03:17]cookies: {}
+[DEBUG 2020-05-07 17:03:18]cookies: {}
+[DEBUG 2020-05-07 17:03:18]cookies: {}
+[ERROR 2020-05-07 17:03:21]邮件发送失败，请检查邮件配置
+[INFO 2020-05-07 17:08:06]初始化配置文件, path=C:\Users\Administrator\PycharmProjects\API_pytest\Conf\config.ini
+[INFO 2020-05-07 17:08:07]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Login.yaml
+[INFO 2020-05-07 17:08:07]解析yaml, Path:C:\Users\Administrator\PycharmProjects\API_pytest/Params/Yaml/Get.yaml
+[DEBUG 2020-05-07 17:08:08]cookies: {}
+[DEBUG 2020-05-07 17:08:08]cookies: {}
+[DEBUG 2020-05-07 17:08:09]cookies: {}
+[DEBUG 2020-05-07 17:08:10]cookies: {}
+[DEBUG 2020-05-07 17:08:10]cookies: {}
+[DEBUG 2020-05-07 17:08:10]cookies: {}
+[INFO 2020-05-07 17:08:13]邮件发送成功

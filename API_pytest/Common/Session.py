@@ -3,11 +3,13 @@
 # author by : Li Jiyan
 # date : 2020/4/9
 from Conf import Config
+from Common import Log
 import requests
 
 class Session:
     def __init__(self):
         self.config=Config.Config()
+        self.log = Log.MyLog()
 
     def get_session(self,env):
         headers={
@@ -17,19 +19,19 @@ class Session:
         }
 
         if env=='debug':
-            login_url = 'http://' + self.config.host_debug+self.config.loginHost_debug
+            login_url = 'https://' + self.config.host_debug+self.config.loginHost_debug
             # print(login_url)
             parm = self.config.loginInfo_debug
 
             session_debug = requests.session()
             response = session_debug.post(login_url, parm, headers=headers)
             # print(response.cookies)
-            # self.log.debug('cookies: %s' % response.cookies.get_dict())
+            self.log.debug('cookies: %s' % response.cookies.get_dict())
             return response.cookies.get_dict()
 
         else:
             print("get cookies error")
-            # self.log.error('get cookies error, please checkout!!!')
+            self.log.error('get cookies error, please checkout!!!')
 
 
 if __name__ == '__main__':

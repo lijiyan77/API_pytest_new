@@ -3,9 +3,13 @@
 # author by : Li Jiyan
 # date : 2020/4/9
 from Common import Consts
+from Common import Log
 import json
 
 class Assertions:
+    def __init__(self):
+        self.log=Log.MyLog()
+
     def assert_code(self,code,expected_code):
         """
         验证response状态码
@@ -33,7 +37,7 @@ class Assertions:
             return True
 
         except:
-            # self.log.error("Response body msg != expected_msg, expected_msg is %s, body_msg is %s" % (expected_msg, body_msg))
+            self.log.error("Response body msg != expected_msg, expected_msg is %s, body_msg is %s" % (expected_msg, body_msg))
             Consts.RESULT_LIST.append('fail')
 
             raise
@@ -52,7 +56,7 @@ class Assertions:
             return True
 
         except:
-            # self.log.error("Response body Does not contain expected_msg, expected_msg is %s" % expected_msg)
+            self.log.error("Response body Does not contain expected_msg, expected_msg is %s" % expected_msg)
             Consts.RESULT_LIST.append('fail')
 
             raise
@@ -69,7 +73,7 @@ class Assertions:
             return True
 
         except:
-            # self.log.error("Response body != expected_msg, expected_msg is %s, body is %s" % (expected_msg, body))
+            self.log.error("Response body != expected_msg, expected_msg is %s, body is %s" % (expected_msg, body))
             Consts.RESULT_LIST.append('fail')
 
             raise
@@ -86,7 +90,7 @@ class Assertions:
             return True
 
         except:
-            # self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
+            self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
             Consts.RESULT_LIST.append('fail')
 
             raise

@@ -46,7 +46,7 @@ def login(action):
     request = Request.Request(action)
 
     host = conf.host_debug
-    req_url = 'http://' + host
+    req_url = 'https://' + host
     urls = data.url
     api_url = req_url + urls[0]
 
