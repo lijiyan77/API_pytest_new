@@ -42,17 +42,7 @@ class Get:
         url.append(params[i]['url'])
         data.append(params[i]['data'])
 
-#
-# class Collections:
-#     log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Collections.yaml')
-#     params = get_parameter('Collections')
-#     url = []
-#     data = []
-#     header = []
-#     for i in range(0, len(params)):
-#         url.append(params[i]['url'])
-#         data.append(params[i]['data'])
-#         header.append(params[i]['header'])
+
 
 
 # class Personal:
